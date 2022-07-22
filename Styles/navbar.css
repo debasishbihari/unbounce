@@ -1,0 +1,79 @@
+*{
+    font-family:sans-serif;
+}
+#container{
+display:flex;
+height:100px;
+width:100vw;
+background-color: #303030;
+/* justify-content:space-between; */
+}
+#parent{
+display:flex;
+width:70%;
+height:100px;
+margin:auto;
+border:0px solid blue;
+align-items: center;
+justify-content: space-between;
+}
+#parent>#left{
+display:flex;
+height:60%;
+width:65%;
+border:0px solid red;
+justify-content: space-between;
+align-items: center;
+}
+#parent>button{
+height:50px;
+background-color: #303030;
+font-size:16px;
+border:0px solid red;
+border-radius:2px;
+}
+#left>div>button{
+margin-right:10px;
+padding: 10px 20px;
+color:white;
+background-color: #303030;
+border:none;
+}
+#left>div:first-child>button{
+display:flex;
+font-weight:bold;
+font-size: 25px;
+align-items: center;
+}
+button:hover{
+cursor: pointer;
+}
+#left>div:nth-child(1)>button>img{
+width:20%;
+border-radius: 300px;
+}
+#right>button:nth-child(2){
+border:2px solid white;
+padding:10px 20px;
+font-weight: bold;
+}
+#right>button:nth-child(3){
+background-color:white;
+color:black;
+padding:10px 20px;
+font-weight: bold;
+border:none;
+}
+#right>button{
+margin-left:10px;
+}
+#right>button:hover{
+    background-color:grey;
+}
+#right>button:last-child:hover{
+    color:white;
+}
+#parent>#left>div>button>span{
+    font-size: 12px;
+    margin-left: 5px;
+}
