@@ -1,0 +1,33 @@
+#login{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px;
+}
+#login>div:nth-child(1){
+    text-align:center;
+    padding-top:200px;
+}
+h3{
+    margin-left:-340px
+}
+input{
+    height:40px;
+    width:50%;
+    border-radius: 2px;
+    border:0.2px solid  dimgrey;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+input[type="submit"]{
+    background:blue;
+    font-size:25px;
+    color:white;
+    border:none;
+    height:50px;
+}
+input[type="submit"]:hover{
+    background:lightblue;
+}
+#login>div:nth-child(2)>img{
+    width:100%;
+}

@@ -1,0 +1,147 @@
+*{
+    font-family:sans-serif;
+}
+#signup-1{
+    width:100vw;
+    height:100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#signup-1>a{
+    width:70%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    margin-left:200px;
+}
+#signup-1>a>img{
+    width:20%;
+}
+#signup-2{
+    width:80%;
+    margin:auto;
+    margin-top: 100px;
+    border:0px solid red;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    gap:40px;
+}
+#signup-2>#parent-left{
+    border:1px solid rgb(237,237,237);
+}
+#signup-2>#parent-left>div{
+    width:100%;
+    height:80px;
+    background-color:rgb(237,237,237);
+    display:flex;
+    align-items: center;
+}
+#signup-2>#parent-left>div>p{
+    font-size:25px;
+    margin-left: 20px;
+    font-weight:500;
+}
+#signup-2>#parent-left>div+a>div{
+    width:95%;
+    height:60px;
+    margin:auto;
+    margin-top: 50px;
+    border:0px solid red;
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#signup-2>#parent-left>div+a{
+    text-decoration: none;
+}
+#signup-2>#parent-left>div+a>div>img{
+    width:5%;
+    margin-right:10px;
+}
+#signup-2>#parent-left>div+a>div>img+button{
+    background-color: white;
+    color:rgb(116,122,139);
+    border:none;
+    font-size:25px;
+}
+#signup-2>#parent-left>div+a+div{
+    display:flex;
+    gap:10px;
+    margin-top:15px;
+    padding-left: 15px;
+    background-color:white;
+}
+#signup-2>#parent-left>div+a+div>label>a{
+    text-decoration:none;
+    color:black;
+}
+#signup-2>#parent-left>div+a+div>label>a>p>span{
+    color:blue;
+}
+#signup-2>#parent-left>div+a+div>label>a>p>span:hover{
+    text-decoration:underline;
+}
+#signup-2>#parent-left>#signup>#naming{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px;
+    margin-left:30px;
+    margin-right:30px;
+}
+input[type="text"]{
+    width: 100%;
+    height:30px;
+}
+#signup-2>#parent-left>#signup>.emailing,
+#signup-2>#parent-left>#signup>#passwording{
+    display:grid;
+    grid-template-columns:1fr;
+    margin-left:30px;
+    margin-right:30px;
+}
+input[type="email"],
+input[type="password"]{
+    width: auto;
+    height:30px;
+}
+#signup-2>#parent-left>#signup>#tickbox{
+    display: flex;
+    margin-left:30px;
+}
+#signup-2>#parent-left>#signup>#tickbox>p>a{
+    text-decoration: none;
+}
+#signup-2>#parent-left>#signup>#signingup{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#signup-2>#parent-left>#signup>#signingup>input{
+    width:100%;
+    height:60px;
+    margin-left:30px;
+    margin-right:30px;
+    border-radius: 5px;
+    background-color:blue;
+    border:none;
+    color:white;
+    font-size:25px;
+    font-weight:bold;
+}
+#signup-2>#parent-right{
+    border:1px solid rgb(237,237,237);
+}
+#signup-2>#parent-right>div{
+    width:100%;
+    height:80px;
+    background-color:rgb(237,237,237);
+    display:flex;
+    align-items: center;
+}
+#signup-2>#parent-right>div>p{
+    font-size:25px;
+    margin-left: 20px;
+    font-weight:500;
+}

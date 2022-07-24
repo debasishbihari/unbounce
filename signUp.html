@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="./Styles/signUp.css"/>
+</head>
+<body>
+    <!-- signup nav -->
+    <div id="signup-1">
+        <a href="index.html">
+            <img src="https://app.unbounce.com/app_assets/logo/unbounce-identity-gray-db7ebfd2fef7d62e9a9291a4bfa9c5de863e0be6523b437b87c16d27f0015412.svg" alt="">
+        </a>
+    </div>
+
+    <!-- signup body -->
+    <div id="signup-2">
+        <div id="parent-left">
+            <div><p>Create your Launch account ($90/monthly)</p></div>
+            <a href="">
+               <div>
+                <img src="https://app.unbounce.com/app_assets/svg/google-icon-1553313c16ee72c905f02b21327275d51d2326fe6f781996bc2a831d930a742c.svg" alt="">
+                <button>Sign Up With Google</button>
+               </div>
+            </a>
+            <div>
+                <input type="checkbox" id="check1">
+                <label for="check1">
+                    <a href="">
+                        <p>I agree to Unbounce's<span>Terms of Service</span>and<span>Privacy Policy</span></p>
+                    </a>
+                </label>
+            </div>
+            <hr>
+            
+            <!-- form -->
+                <form id="signup">
+                    <div id="naming">
+                        <div>
+                            <p>First Name*</p>
+                            <input type="text" id="firstname"/>
+                        </div>
+                        <div>
+                            <p>Last Name*</p>
+                            <input type="text" id="lastname"/>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="emailing">
+                        <p>Email*</p>
+                        <input type="email" id="email"/>
+                    </div>
+                    <br>
+                    <div class="emailing">
+                        <p>Confirm your email*</p>
+                        <input type="email" id="emailconf"/>
+                    </div>
+                    <br>
+                    <div id="passwording">
+                        <p>Password*</p>
+                        <input type="password" id="password"/>
+                    </div>
+                 <br>
+                 <div id="tickbox">
+                    <input type="checkbox" id="checkbox"/>
+                    <p>I agree to Unbounce's <a href="">Terms of Service</a> and <a href="">Privacy Policy</a>.</p>
+                 </div>
+                 <div id="signingup">
+                    <input type="submit" value="Sign Up With Email"/>
+                 </div>
+                </form>
+        </div>
+    </div>
+</body>
+<script src="./Scripts/signUp.js"></script>
+</html>
