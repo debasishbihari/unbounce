@@ -16,7 +16,6 @@ document.querySelector("form").addEventListener("submit", login)
             }
         }
         if(flag){
-            alert("Login Success!");
             window.location.href="index.html"
         }
         else{
